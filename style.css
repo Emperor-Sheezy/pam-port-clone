@@ -232,10 +232,12 @@ section p{
 
  .about h1{
     margin-bottom: 10px;
+    text-align: center;
  }
  .about h3{
     color: #f0094a;
     margin-bottom: 10px;
+    text-align: center;
  }
 
  .container2{
@@ -244,6 +246,9 @@ section p{
   margin: 10px;
   margin-top: 50px;
   margin-top: 100px;
+  place-content: center;
+  place-items: center;
+  place-self: center;
  }
 
  progress{
@@ -257,12 +262,13 @@ section p{
 
  #port{
   background-color: #33091534;
+  text-align: center;
  }
 
  .shaolin{
   display: flex;
   /* width: 1000px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
   justify-content: center;
   align-items: center;
   display: wrap;
